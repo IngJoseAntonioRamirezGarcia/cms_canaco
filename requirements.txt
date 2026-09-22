@@ -1,0 +1,4 @@
+Django>=5.0
+django-mysql==4.19.0
+pymysql
+tzdata==2026.2
