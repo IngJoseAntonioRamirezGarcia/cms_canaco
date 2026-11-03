@@ -1,0 +1,1644 @@
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/__init__.cpython-313.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/aliases.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/aliases.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/aliases.cpython-313.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x100871f90>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x1007ed2b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/utf_8.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/utf_8.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__pycache__/utf_8.cpython-313.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x100872210>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'posixpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import '_sitebuiltins' # <class '_frozen_importlib.FrozenImporter'>
+Processing global site-packages
+Adding directory: '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages'
+Processing user site-packages
+Processing global site-packages
+Adding directory: '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/sitecustomize.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/sitecustomize.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/sitecustomize.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/enum.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/enum.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/functools.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/functools.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__pycache__/__init__.cpython-313.pyc'
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/keyword.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/keyword.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/keyword.cpython-313.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x100965950>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/operator.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/operator.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/operator.cpython-313.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x100966250>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/reprlib.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/reprlib.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/reprlib.cpython-313.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x10090b890>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x10091a7a0>
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x1009186b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/types.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/types.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/types.cpython-313.pyc'
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x10090ad50>
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x10081f530>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_compiler.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_compiler.cpython-313.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_parser.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_parser.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_constants.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_constants.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_constants.cpython-313.pyc'
+import 're._constants' # <_frozen_importlib_external.SourceFileLoader object at 0x1009b8940>
+import 're._parser' # <_frozen_importlib_external.SourceFileLoader object at 0x1009427b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_casefix.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_casefix.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__pycache__/_casefix.cpython-313.pyc'
+import 're._casefix' # <_frozen_importlib_external.SourceFileLoader object at 0x1007febd0>
+import 're._compiler' # <_frozen_importlib_external.SourceFileLoader object at 0x100942510>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/copyreg.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/copyreg.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/copyreg.cpython-313.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x1007ff950>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x10085e650>
+import 'sitecustomize' # <_frozen_importlib_external.SourceFileLoader object at 0x10085e2c0>
+import 'site' # <class '_frozen_importlib.FrozenImporter'>
+Python 3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/__init__.cpython-313.pyc'
+import 'django.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x1009fa3f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/version.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/version.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/version.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/datetime.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/datetime.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/datetime.cpython-313.pyc'
+# extension module '_datetime' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_datetime.cpython-313-darwin.so'
+# extension module '_datetime' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_datetime.cpython-313-darwin.so'
+import '_datetime' # <_frozen_importlib_external.ExtensionFileLoader object at 0x100985d30>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x100812720>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/subprocess.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/subprocess.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/locale.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/locale.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/locale.cpython-313.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x100963950>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/signal.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/signal.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/signal.cpython-313.pyc'
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x10098ab30>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/threading.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/threading.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/warnings.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/warnings.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/warnings.cpython-313.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x100a1cb30>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_weakrefset.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_weakrefset.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_weakrefset.cpython-313.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x100a1e330>
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x10098acf0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/contextlib.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/contextlib.cpython-313.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x10091ef30>
+# extension module 'fcntl' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/fcntl.cpython-313-darwin.so'
+# extension module 'fcntl' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/fcntl.cpython-313-darwin.so'
+import 'fcntl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x100a4d310>
+# extension module '_posixsubprocess' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_posixsubprocess.cpython-313-darwin.so'
+# extension module '_posixsubprocess' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_posixsubprocess.cpython-313-darwin.so'
+import '_posixsubprocess' # <_frozen_importlib_external.ExtensionFileLoader object at 0x100a4d590>
+# extension module 'select' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/select.cpython-313-darwin.so'
+# extension module 'select' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/select.cpython-313-darwin.so'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x100970640>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/selectors.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/selectors.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/selectors.cpython-313.pyc'
+# extension module 'math' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/math.cpython-313-darwin.so'
+# extension module 'math' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/math.cpython-313-darwin.so'
+import 'math' # <_frozen_importlib_external.ExtensionFileLoader object at 0x100a84770>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x100a1f470>
+import 'subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x100963850>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/regex_helper.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/regex_helper.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/regex_helper.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/functional.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/functional.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/functional.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/copy.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/copy.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/copy.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/weakref.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/weakref.cpython-313.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x100aa83b0>
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x100a1fcb0>
+import 'django.utils.functional' # <_frozen_importlib_external.SourceFileLoader object at 0x100a1fe30>
+import 'django.utils.regex_helper' # <_frozen_importlib_external.SourceFileLoader object at 0x100982bd0>
+import 'django.utils.version' # <_frozen_importlib_external.SourceFileLoader object at 0x1009f9310>
+import 'django' # <_frozen_importlib_external.SourceFileLoader object at 0x1009a8d60>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/__init__.cpython-313.pyc'
+import 'django.core' # <_frozen_importlib_external.SourceFileLoader object at 0x1009821b0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/pkgutil.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pkgutil.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/pkgutil.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__pycache__/__init__.cpython-313.pyc'
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x100aa9bb0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__pycache__/_abc.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/_abc.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__pycache__/_abc.cpython-313.pyc'
+import 'importlib._abc' # <_frozen_importlib_external.SourceFileLoader object at 0x100aa9eb0>
+import 'importlib.util' # <class '_frozen_importlib.FrozenImporter'>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/typing.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/typing.cpython-313.pyc'
+import '_typing' # <class '_frozen_importlib.BuiltinImporter'>
+import 'typing' # <_frozen_importlib_external.SourceFileLoader object at 0x100aaa3f0>
+import 'pkgutil' # <_frozen_importlib_external.SourceFileLoader object at 0x100aa9670>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/argparse.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/argparse.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/argparse.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/gettext.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/gettext.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/gettext.cpython-313.pyc'
+import 'gettext' # <_frozen_importlib_external.SourceFileLoader object at 0x1059be030>
+import 'argparse' # <_frozen_importlib_external.SourceFileLoader object at 0x100aa9b50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/difflib.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/difflib.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/difflib.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/heapq.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/heapq.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/heapq.cpython-313.pyc'
+# extension module '_heapq' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_heapq.cpython-313-darwin.so'
+# extension module '_heapq' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_heapq.cpython-313-darwin.so'
+import '_heapq' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105a05130>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0d8b0>
+import 'difflib' # <_frozen_importlib_external.SourceFileLoader object at 0x1059bf0b0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/config.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/config.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/config.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/inspect.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/inspect.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/inspect.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ast.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ast.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ast.cpython-313.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0e210>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/dis.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/dis.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/dis.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/opcode.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/opcode.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/opcode.cpython-313.pyc'
+# extension module '_opcode' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_opcode.cpython-313-darwin.so'
+# extension module '_opcode' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_opcode.cpython-313-darwin.so'
+import '_opcode' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105acc5a0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_opcode_metadata.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_opcode_metadata.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_opcode_metadata.cpython-313.pyc'
+import '_opcode_metadata' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac0410>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac0230>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x105a5bc50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/linecache.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/linecache.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/linecache.cpython-313.pyc'
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac0b30>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/tokenize.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tokenize.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/tokenize.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/token.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/token.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/token.cpython-313.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac10d0>
+import '_tokenize' # <class '_frozen_importlib.BuiltinImporter'>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac0dd0>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0e0f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/exceptions.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/exceptions.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/exceptions.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/hashable.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/hashable.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/hashable.cpython-313.pyc'
+import 'django.utils.hashable' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac2210>
+import 'django.core.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0f1d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/module_loading.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/module_loading.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/module_loading.cpython-313.pyc'
+import 'django.utils.module_loading' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac22d0>
+import 'django.apps.config' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0d610>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/registry.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/registry.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/apps/__pycache__/registry.cpython-313.pyc'
+import 'django.apps.registry' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0e090>
+import 'django.apps' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0c170>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/traceback.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/traceback.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/textwrap.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/textwrap.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/textwrap.cpython-313.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac3230>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_colorize.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_colorize.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_colorize.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/__future__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__future__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/__future__.cpython-313.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2ca10>
+import '_colorize' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2c8f0>
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac2ff0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/_abc.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_abc.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/_abc.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/glob.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/glob.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/glob.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/fnmatch.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/fnmatch.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/fnmatch.cpython-313.pyc'
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2de50>
+import 'glob' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2cef0>
+import 'pathlib._abc' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2ccb0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/_local.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/__pycache__/_local.cpython-313.pyc'
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'pwd' # <class '_frozen_importlib.BuiltinImporter'>
+# extension module 'grp' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/grp.cpython-313-darwin.so'
+# extension module 'grp' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/grp.cpython-313-darwin.so'
+import 'grp' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105acf020>
+import 'pathlib._local' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2dd90>
+import 'pathlib' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2cd10>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/__pycache__/global_settings.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/global_settings.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/__pycache__/global_settings.cpython-313.pyc'
+import 'django.conf.global_settings' # <_frozen_importlib_external.SourceFileLoader object at 0x105b2cd70>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/deprecation.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/deprecation.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/deprecation.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/__init__.cpython-313.pyc'
+import 'asgiref' # <_frozen_importlib_external.SourceFileLoader object at 0x105b985f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/sync.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/sync.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/sync.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_events.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_events.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/__pycache__/__init__.cpython-313.pyc'
+import 'concurrent' # <_frozen_importlib_external.SourceFileLoader object at 0x105b99910>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/_base.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/_base.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/_base.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/string.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/string.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/string.cpython-313.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x105bd0590>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x105b9b230>
+import 'concurrent.futures._base' # <_frozen_importlib_external.SourceFileLoader object at 0x105b9b050>
+import 'concurrent.futures' # <_frozen_importlib_external.SourceFileLoader object at 0x105b998b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/socket.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/socket.cpython-313.pyc'
+# extension module '_socket' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_socket.cpython-313-darwin.so'
+# extension module '_socket' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_socket.cpython-313-darwin.so'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105b5f550>
+# extension module 'array' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/array.cpython-313-darwin.so'
+# extension module 'array' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/array.cpython-313-darwin.so'
+import 'array' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105bd5f50>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x105b9a450>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ssl.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ssl.cpython-313.pyc'
+# extension module '_ssl' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_ssl.cpython-313-darwin.so'
+# extension module '_ssl' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_ssl.cpython-313-darwin.so'
+import '_ssl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105b4be30>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/base64.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/base64.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/base64.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/struct.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/struct.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/struct.cpython-313.pyc'
+# extension module '_struct' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_struct.cpython-313-darwin.so'
+# extension module '_struct' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_struct.cpython-313-darwin.so'
+import '_struct' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105c3c5f0>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x105c29670>
+# extension module 'binascii' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/binascii.cpython-313-darwin.so'
+# extension module 'binascii' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/binascii.cpython-313-darwin.so'
+import 'binascii' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105bad550>
+import 'base64' # <_frozen_importlib_external.SourceFileLoader object at 0x105c293d0>
+import 'ssl' # <_frozen_importlib_external.SourceFileLoader object at 0x105b9a6f0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/constants.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/constants.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/constants.cpython-313.pyc'
+import 'asyncio.constants' # <_frozen_importlib_external.SourceFileLoader object at 0x105bd30b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/coroutines.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/coroutines.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/coroutines.cpython-313.pyc'
+import 'asyncio.coroutines' # <_frozen_importlib_external.SourceFileLoader object at 0x105c29cd0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/events.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/events.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/contextvars.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextvars.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/contextvars.cpython-313.pyc'
+# extension module '_contextvars' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_contextvars.cpython-313-darwin.so'
+# extension module '_contextvars' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_contextvars.cpython-313-darwin.so'
+import '_contextvars' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105baf690>
+import 'contextvars' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2abd0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/format_helpers.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/format_helpers.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/format_helpers.cpython-313.pyc'
+import 'asyncio.format_helpers' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2b050>
+# extension module '_asyncio' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_asyncio.cpython-313-darwin.so'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_futures.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_futures.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_futures.cpython-313.pyc'
+import 'asyncio.base_futures' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2b4d0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/exceptions.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/exceptions.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/exceptions.cpython-313.pyc'
+import 'asyncio.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2b590>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_tasks.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_tasks.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_tasks.cpython-313.pyc'
+import 'asyncio.base_tasks' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2b710>
+# extension module '_asyncio' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_asyncio.cpython-313-darwin.so'
+import '_asyncio' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105c21160>
+import 'asyncio.events' # <_frozen_importlib_external.SourceFileLoader object at 0x105c29e50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/futures.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/futures.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/futures.cpython-313.pyc'
+import 'asyncio.futures' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2a330>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/protocols.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/protocols.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/protocols.cpython-313.pyc'
+import 'asyncio.protocols' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2af90>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/sslproto.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/sslproto.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/sslproto.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/transports.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/transports.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/transports.cpython-313.pyc'
+import 'asyncio.transports' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2bf50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/log.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/log.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/log.cpython-313.pyc'
+import 'asyncio.log' # <_frozen_importlib_external.SourceFileLoader object at 0x105f50530>
+import 'asyncio.sslproto' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2bd10>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/staggered.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/staggered.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/staggered.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/locks.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/locks.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/locks.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/mixins.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/mixins.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/mixins.cpython-313.pyc'
+import 'asyncio.mixins' # <_frozen_importlib_external.SourceFileLoader object at 0x105f516d0>
+import 'asyncio.locks' # <_frozen_importlib_external.SourceFileLoader object at 0x105f51010>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/tasks.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/tasks.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/tasks.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/queues.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/queues.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/queues.cpython-313.pyc'
+import 'asyncio.queues' # <_frozen_importlib_external.SourceFileLoader object at 0x105f52030>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/timeouts.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/timeouts.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/timeouts.cpython-313.pyc'
+import 'asyncio.timeouts' # <_frozen_importlib_external.SourceFileLoader object at 0x105f52510>
+import 'asyncio.tasks' # <_frozen_importlib_external.SourceFileLoader object at 0x105f51490>
+import 'asyncio.staggered' # <_frozen_importlib_external.SourceFileLoader object at 0x105c2bef0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/trsock.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/trsock.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/trsock.cpython-313.pyc'
+import 'asyncio.trsock' # <_frozen_importlib_external.SourceFileLoader object at 0x105f50dd0>
+import 'asyncio.base_events' # <_frozen_importlib_external.SourceFileLoader object at 0x105b98e30>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/runners.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/runners.cpython-313.pyc'
+import 'asyncio.runners' # <_frozen_importlib_external.SourceFileLoader object at 0x105b99310>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/streams.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/streams.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/streams.cpython-313.pyc'
+import 'asyncio.streams' # <_frozen_importlib_external.SourceFileLoader object at 0x105f52b70>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/subprocess.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/subprocess.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/subprocess.cpython-313.pyc'
+import 'asyncio.subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x105f52d50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/taskgroups.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/taskgroups.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/taskgroups.cpython-313.pyc'
+import 'asyncio.taskgroups' # <_frozen_importlib_external.SourceFileLoader object at 0x105f53bf0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/threads.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/threads.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/threads.cpython-313.pyc'
+import 'asyncio.threads' # <_frozen_importlib_external.SourceFileLoader object at 0x105f53d70>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/unix_events.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/unix_events.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/unix_events.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_subprocess.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_subprocess.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/base_subprocess.cpython-313.pyc'
+import 'asyncio.base_subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x105fbccb0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/selector_events.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/selector_events.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/__pycache__/selector_events.cpython-313.pyc'
+import 'asyncio.selector_events' # <_frozen_importlib_external.SourceFileLoader object at 0x105fbe1b0>
+import 'asyncio.unix_events' # <_frozen_importlib_external.SourceFileLoader object at 0x105fbc110>
+import 'asyncio' # <_frozen_importlib_external.SourceFileLoader object at 0x105b98d10>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/thread.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/thread.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/concurrent/futures/__pycache__/thread.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/queue.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/queue.cpython-313.pyc'
+# extension module '_queue' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_queue.cpython-313-darwin.so'
+# extension module '_queue' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_queue.cpython-313-darwin.so'
+import '_queue' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105fd0ad0>
+import 'queue' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff0590>
+import 'concurrent.futures.thread' # <_frozen_importlib_external.SourceFileLoader object at 0x105b98d70>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/current_thread_executor.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/current_thread_executor.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/current_thread_executor.cpython-313.pyc'
+import 'asgiref.current_thread_executor' # <_frozen_importlib_external.SourceFileLoader object at 0x105fbd550>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/local.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/local.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/asgiref/__pycache__/local.cpython-313.pyc'
+import 'asgiref.local' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff0ad0>
+import 'asgiref.sync' # <_frozen_importlib_external.SourceFileLoader object at 0x105b984d0>
+import 'django.utils.deprecation' # <_frozen_importlib_external.SourceFileLoader object at 0x105b983b0>
+import 'django.conf' # <_frozen_importlib_external.SourceFileLoader object at 0x105a0de50>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/base.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/base.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/base.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/messages.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/messages.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/messages.cpython-313.pyc'
+import 'django.core.checks.messages' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff17f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/registry.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/registry.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/registry.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/inspect.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/inspect.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/inspect.cpython-313.pyc'
+import 'django.utils.inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1c70>
+import 'django.core.checks.registry' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff19d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/async_checks.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/async_checks.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/async_checks.cpython-313.pyc'
+import 'django.core.checks.async_checks' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1c10>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/caches.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/caches.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/caches.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/signals.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/signals.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/signals.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/__pycache__/dispatcher.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/dispatcher.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/dispatch/__pycache__/dispatcher.cpython-313.pyc'
+import 'django.dispatch.dispatcher' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff2630>
+import 'django.dispatch' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff25d0>
+import 'django.core.signals' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff24b0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/__init__.cpython-313.pyc'
+import 'django.core.cache.backends' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff2690>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/base.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/base.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/base.cpython-313.pyc'
+import 'django.core.cache.backends.base' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff2510>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/connection.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/connection.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/connection.cpython-313.pyc'
+import 'django.utils.connection' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff3470>
+import 'django.core.cache' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff2210>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/filebased.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/filebased.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/cache/backends/__pycache__/filebased.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/pickle.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pickle.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/pickle.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_compat_pickle.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_compat_pickle.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_compat_pickle.cpython-313.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff3cb0>
+# extension module '_pickle' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_pickle.cpython-313-darwin.so'
+# extension module '_pickle' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_pickle.cpython-313-darwin.so'
+import '_pickle' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105fd1f10>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff3a10>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/random.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/random.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/random.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/bisect.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/bisect.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/bisect.cpython-313.pyc'
+# extension module '_bisect' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_bisect.cpython-313-darwin.so'
+# extension module '_bisect' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_bisect.cpython-313-darwin.so'
+import '_bisect' # <_frozen_importlib_external.ExtensionFileLoader object at 0x10600a620>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x106059010>
+# extension module '_random' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_random.cpython-313-darwin.so'
+# extension module '_random' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_random.cpython-313-darwin.so'
+import '_random' # <_frozen_importlib_external.ExtensionFileLoader object at 0x10600a6d0>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x1060596d0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/tempfile.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tempfile.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/tempfile.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/shutil.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/shutil.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/shutil.cpython-313.pyc'
+# extension module 'zlib' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/zlib.cpython-313-darwin.so'
+# extension module 'zlib' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/zlib.cpython-313-darwin.so'
+import 'zlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x106086e90>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/bz2.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/bz2.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/bz2.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_compression.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_compression.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/_compression.cpython-313.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b4230>
+# extension module '_bz2' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_bz2.cpython-313-darwin.so'
+# extension module '_bz2' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_bz2.cpython-313-darwin.so'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x106087570>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x10605b530>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/lzma.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lzma.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/lzma.cpython-313.pyc'
+# extension module '_lzma' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_lzma.cpython-313-darwin.so'
+# extension module '_lzma' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_lzma.cpython-313-darwin.so'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x105fe2600>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x10605bd10>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x10605a150>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x106058f50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/hashlib.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/hashlib.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/hashlib.cpython-313.pyc'
+# extension module '_hashlib' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_hashlib.cpython-313-darwin.so'
+# extension module '_hashlib' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_hashlib.cpython-313-darwin.so'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1060a9950>
+# extension module '_blake2' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_blake2.cpython-313-darwin.so'
+# extension module '_blake2' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_blake2.cpython-313-darwin.so'
+import '_blake2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1060a9ad0>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x10605a690>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/base.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/base.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/base.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/utils.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/utils.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/utils.cpython-313.pyc'
+import 'django.core.files.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5070>
+import 'django.core.files.base' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b4ef0>
+import 'django.core.files' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff3b90>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/locks.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/locks.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/locks.cpython-313.pyc'
+import 'django.core.files.locks' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff3ad0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/move.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/move.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/move.cpython-313.pyc'
+import 'django.core.files.move' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b51f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/_os.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/_os.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/_os.cpython-313.pyc'
+import 'django.utils._os' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5370>
+import 'django.core.cache.backends.filebased' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff2450>
+import 'django.core.checks.caches' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1d90>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/commands.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/commands.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/commands.cpython-313.pyc'
+import 'django.core.checks.commands' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1df0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/__pycache__/__init__.cpython-313.pyc'
+import 'django.core.checks.compatibility' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5490>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/__pycache__/django_4_0.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/django_4_0.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/compatibility/__pycache__/django_4_0.cpython-313.pyc'
+import 'django.core.checks.compatibility.django_4_0' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5430>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/database.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/database.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/database.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/__pycache__/utils.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/utils.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/db/__pycache__/utils.cpython-313.pyc'
+import 'django.db.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5610>
+import 'django.db' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5550>
+import 'django.core.checks.database' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b54f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/files.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/files.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/files.cpython-313.pyc'
+import 'django.core.checks.files' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b55b0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/model_checks.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/model_checks.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/model_checks.cpython-313.pyc'
+import 'django.core.checks.model_checks' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b5670>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/__init__.cpython-313.pyc'
+import 'django.core.checks.security' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b62d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/base.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/base.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/base.cpython-313.pyc'
+import 'django.core.checks.security.base' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6270>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/csrf.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/csrf.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/csrf.cpython-313.pyc'
+import 'django.core.checks.security.csrf' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6330>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/sessions.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/sessions.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/security/__pycache__/sessions.cpython-313.pyc'
+import 'django.core.checks.security.sessions' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b68d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/templates.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/templates.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/templates.cpython-313.pyc'
+import 'django.core.checks.templates' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6990>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/translation.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/translation.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/translation.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/decimal.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/decimal.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/decimal.cpython-313.pyc'
+# extension module '_decimal' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_decimal.cpython-313-darwin.so'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/numbers.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/numbers.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/numbers.cpython-313.pyc'
+import 'numbers' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b7350>
+# extension module '_decimal' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_decimal.cpython-313-darwin.so'
+import '_decimal' # <_frozen_importlib_external.ExtensionFileLoader object at 0x10609e900>
+import 'decimal' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b71d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/autoreload.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/autoreload.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/autoreload.cpython-313.pyc'
+# extension module 'termios' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/termios.cpython-313-darwin.so'
+# extension module 'termios' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/termios.cpython-313-darwin.so'
+import 'termios' # <_frozen_importlib_external.ExtensionFileLoader object at 0x10609f070>
+import 'django.utils.autoreload' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b7230>
+import 'django.utils.translation' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6c30>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/__pycache__/trans_real.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/trans_real.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/translation/__pycache__/trans_real.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/locale/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/locale/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/conf/locale/__pycache__/__init__.cpython-313.pyc'
+import 'django.conf.locale' # <_frozen_importlib_external.SourceFileLoader object at 0x10616d130>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/safestring.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/safestring.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/safestring.cpython-313.pyc'
+import 'django.utils.safestring' # <_frozen_importlib_external.SourceFileLoader object at 0x10616dbb0>
+import 'django.utils.translation.trans_real' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b7b30>
+import 'django.core.checks.translation' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6930>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/urls.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/urls.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/checks/__pycache__/urls.cpython-313.pyc'
+import 'django.core.checks.urls' # <_frozen_importlib_external.SourceFileLoader object at 0x1060b6bd0>
+import 'django.core.checks' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1070>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/color.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/color.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__pycache__/color.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/termcolors.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/termcolors.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/termcolors.cpython-313.pyc'
+import 'django.utils.termcolors' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e030>
+import 'django.core.management.color' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff1790>
+import 'django.core.management.base' # <_frozen_importlib_external.SourceFileLoader object at 0x105ac3050>
+import 'django.core.management' # <_frozen_importlib_external.SourceFileLoader object at 0x100980590>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/__init__.cpython-313.pyc'
+import 'pymysql.constants' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e210>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/FIELD_TYPE.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/FIELD_TYPE.cpython-313.pyc'
+import 'pymysql.constants.FIELD_TYPE' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e2d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/err.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/err.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/err.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/ER.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/ER.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/ER.cpython-313.pyc'
+import 'pymysql.constants.ER' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e4b0>
+import 'pymysql.err' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e330>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/times.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/times.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/times.cpython-313.pyc'
+import 'pymysql.times' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e8d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/connections.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/connections.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/connections.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/_auth.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/_auth.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/_auth.cpython-313.pyc'
+import 'pymysql._auth' # <_frozen_importlib_external.SourceFileLoader object at 0x10616fa10>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/converters.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/converters.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/converters.cpython-313.pyc'
+import 'pymysql.converters' # <_frozen_importlib_external.SourceFileLoader object at 0x10616fe30>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/charset.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/charset.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/charset.cpython-313.pyc'
+import 'pymysql.charset' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0050>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/CLIENT.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/CLIENT.cpython-313.pyc'
+import 'pymysql.constants.CLIENT' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0410>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/COMMAND.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/COMMAND.cpython-313.pyc'
+import 'pymysql.constants.COMMAND' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0470>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/CR.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/CR.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/CR.cpython-313.pyc'
+import 'pymysql.constants.CR' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d04d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/SERVER_STATUS.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/constants/__pycache__/SERVER_STATUS.cpython-313.pyc'
+import 'pymysql.constants.SERVER_STATUS' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0350>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/cursors.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/cursors.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/cursors.cpython-313.pyc'
+import 'pymysql.cursors' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d05f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/optionfile.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/optionfile.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/optionfile.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/configparser.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/configparser.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/configparser.cpython-313.pyc'
+import 'configparser' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0d70>
+import 'pymysql.optionfile' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d09b0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/protocol.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/protocol.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/pymysql/__pycache__/protocol.cpython-313.pyc'
+import 'pymysql.protocol' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d0bf0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/getpass.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/getpass.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/getpass.cpython-313.pyc'
+import 'getpass' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d2ab0>
+import 'pymysql.connections' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e990>
+import 'pymysql' # <_frozen_importlib_external.SourceFileLoader object at 0x10616e150>
+import 'canaco' # <_frozen_importlib_external.SourceFileLoader object at 0x105ff16d0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/__pycache__/settings.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/settings.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/canaco/__pycache__/settings.cpython-313.pyc'
+import 'canaco.settings' # <_frozen_importlib_external.SourceFileLoader object at 0x100982d50>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__pycache__/base.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/base.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__pycache__/base.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/__pycache__/__init__.cpython-313.pyc'
+import 'urllib' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d3350>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/__pycache__/parse.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/parse.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/__pycache__/parse.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ipaddress.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ipaddress.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/ipaddress.cpython-313.pyc'
+import 'ipaddress' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d3410>
+import 'urllib.parse' # <_frozen_importlib_external.SourceFileLoader object at 0x1061d32f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/__init__.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/cookie.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/cookie.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/cookie.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/__init__.cpython-313.pyc'
+import 'http' # <_frozen_importlib_external.SourceFileLoader object at 0x106869490>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/cookies.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/cookies.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/cookies.cpython-313.pyc'
+import 'http.cookies' # <_frozen_importlib_external.SourceFileLoader object at 0x10686abd0>
+import 'django.http.cookie' # <_frozen_importlib_external.SourceFileLoader object at 0x106869430>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/request.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/request.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/request.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/signing.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/signing.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/__pycache__/signing.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/decoder.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/decoder.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/decoder.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/scanner.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/scanner.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/scanner.cpython-313.pyc'
+# extension module '_json' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_json.cpython-313-darwin.so'
+# extension module '_json' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/_json.cpython-313-darwin.so'
+import '_json' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1068d5550>
+import 'json.scanner' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d53d0>
+import 'json.decoder' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d4e90>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/encoder.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/encoder.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__pycache__/encoder.cpython-313.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d5310>
+import 'json' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d4830>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/crypto.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/crypto.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/crypto.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/hmac.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/hmac.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/hmac.cpython-313.pyc'
+import 'hmac' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d5610>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/secrets.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/secrets.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/secrets.cpython-313.pyc'
+import 'secrets' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d5af0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/encoding.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/encoding.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/encoding.cpython-313.pyc'
+import 'django.utils.encoding' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d5c70>
+import 'django.utils.crypto' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d4d10>
+import 'django.core.signing' # <_frozen_importlib_external.SourceFileLoader object at 0x10686b950>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/uploadhandler.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/uploadhandler.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/uploadhandler.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/uploadedfile.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/uploadedfile.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/uploadedfile.cpython-313.pyc'
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/temp.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/temp.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/files/__pycache__/temp.cpython-313.pyc'
+import 'django.core.files.temp' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d6870>
+import 'django.core.files.uploadedfile' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d61b0>
+import 'django.core.files.uploadhandler' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d4ad0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/multipartparser.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/multipartparser.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/multipartparser.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__pycache__/__init__.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__pycache__/entities.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/entities.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__pycache__/entities.cpython-313.pyc'
+import 'html.entities' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d73b0>
+import 'html' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d7230>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/datastructures.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/datastructures.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/datastructures.cpython-313.pyc'
+import 'django.utils.datastructures' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d7350>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/http.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/http.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/utils/__pycache__/http.cpython-313.pyc'
+# extension module 'unicodedata' loaded from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/unicodedata.cpython-313-darwin.so'
+# extension module 'unicodedata' executed from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/lib-dynload/unicodedata.cpython-313-darwin.so'
+import 'unicodedata' # <_frozen_importlib_external.ExtensionFileLoader object at 0x1068d7fb0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/__init__.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__init__.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/__init__.cpython-313.pyc'
+import 'email' # <_frozen_importlib_external.SourceFileLoader object at 0x1069640b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/utils.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/utils.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/utils.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_parseaddr.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_parseaddr.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_parseaddr.cpython-313.pyc'
+import 'email._parseaddr' # <_frozen_importlib_external.SourceFileLoader object at 0x1069644d0>
+import 'email.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x106964050>
+import 'django.utils.http' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d7410>
+import 'django.http.multipartparser' # <_frozen_importlib_external.SourceFileLoader object at 0x1068d66f0>
+import 'django.http.request' # <_frozen_importlib_external.SourceFileLoader object at 0x1068694f0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/response.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/response.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__pycache__/response.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/mimetypes.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/mimetypes.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/mimetypes.cpython-313.pyc'
+import 'mimetypes' # <_frozen_importlib_external.SourceFileLoader object at 0x106964c50>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/header.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/header.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/header.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/quoprimime.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/quoprimime.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/quoprimime.cpython-313.pyc'
+import 'email.quoprimime' # <_frozen_importlib_external.SourceFileLoader object at 0x106965f70>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/base64mime.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/base64mime.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/base64mime.cpython-313.pyc'
+import 'email.base64mime' # <_frozen_importlib_external.SourceFileLoader object at 0x1069664b0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/errors.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/errors.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/errors.cpython-313.pyc'
+import 'email.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x106966690>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/charset.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/charset.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/charset.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/encoders.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/encoders.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/encoders.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/quopri.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/quopri.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/__pycache__/quopri.cpython-313.pyc'
+import 'quopri' # <_frozen_importlib_external.SourceFileLoader object at 0x106967830>
+import 'email.encoders' # <_frozen_importlib_external.SourceFileLoader object at 0x1069675f0>
+import 'email.charset' # <_frozen_importlib_external.SourceFileLoader object at 0x106967470>
+import 'email.header' # <_frozen_importlib_external.SourceFileLoader object at 0x106965130>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/client.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/__pycache__/client.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/parser.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/parser.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/feedparser.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/feedparser.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_policybase.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_policybase.cpython-313.pyc'
+import 'email._policybase' # <_frozen_importlib_external.SourceFileLoader object at 0x1069c0d10>
+import 'email.feedparser' # <_frozen_importlib_external.SourceFileLoader object at 0x1069c09b0>
+import 'email.parser' # <_frozen_importlib_external.SourceFileLoader object at 0x106967ef0>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/message.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/message.cpython-313.pyc'
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_encoded_words.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_encoded_words.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/_encoded_words.cpython-313.pyc'
+import 'email._encoded_words' # <_frozen_importlib_external.SourceFileLoader object at 0x1069c1670>
+# /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/iterators.cpython-313.pyc matches /opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/iterators.py
+# code object from '/opt/homebrew/Cellar/python@3.13/3.13.15/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/__pycache__/iterators.cpython-313.pyc'
+import 'email.iterators' # <_frozen_importlib_external.SourceFileLoader object at 0x1069c1fd0>
+import 'email.message' # <_frozen_importlib_external.SourceFileLoader object at 0x1069c0890>
+import 'http.client' # <_frozen_importlib_external.SourceFileLoader object at 0x106965eb0>
+# /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/serializers/__pycache__/__init__.cpython-313.pyc matches /Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/serializers/__init__.py
+# code object from '/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/serializers/__pycache__/__init__.cpython-313.pyc'
+Traceback (most recent call last):
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/management/__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/__init__.py", line 16, in setup
+    from django.urls import set_script_prefix
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/__init__.py", line 1, in <module>
+    from .base import (
+    ...<11 lines>...
+    )
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/urls/base.py", line 5, in <module>
+    from django.http import QueryDict
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/__init__.py", line 9, in <module>
+    from django.http.response import (
+    ...<16 lines>...
+    )
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/http/response.py", line 19, in <module>
+    from django.core.serializers.json import DjangoJSONEncoder
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1310, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/joseantonioramirezgarcia/Desktop/proyectoweb/canaco_env/lib/python3.13/site-packages/django/core/serializers/__init__.py", line 23, in <module>
+    from django.core.serializers.base import SerializerDoesNotExist
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1115, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1215, in get_data
+KeyboardInterrupt
+import 'gc' # <class '_frozen_importlib.BuiltinImporter'>
+# clear sys.path_importer_cache
+# clear sys.path_hooks
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_exc
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# destroy django.core.serializers.base
+# destroy django.core.serializers
+# destroy django.http.response
+# destroy django.http
+# destroy django.urls.base
+# destroy django.urls
+# clear sys.__interactivehook__
+# clear sys.meta_path
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing sys
+# cleanup[2] removing builtins
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _thread
+# cleanup[2] removing _warnings
+# cleanup[2] removing _weakref
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing posix
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing time
+# cleanup[2] removing zipimport
+# cleanup[2] removing _codecs
+# cleanup[2] removing codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing _signal
+# cleanup[2] removing _abc
+# cleanup[2] removing abc
+# cleanup[2] removing io
+# cleanup[2] removing __main__
+# destroy __main__
+# cleanup[2] removing _stat
+# cleanup[2] removing stat
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing errno
+# cleanup[2] removing genericpath
+# cleanup[2] removing posixpath
+# cleanup[2] removing os.path
+# cleanup[2] removing os
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing collections.abc
+# cleanup[2] removing itertools
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing _operator
+# cleanup[2] removing operator
+# cleanup[2] removing reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing collections
+# cleanup[2] removing _functools
+# cleanup[2] removing functools
+# cleanup[2] removing types
+# cleanup[2] removing enum
+# cleanup[2] removing _sre
+# cleanup[2] removing re._constants
+# cleanup[2] removing re._parser
+# cleanup[2] removing re._casefix
+# cleanup[2] removing re._compiler
+# cleanup[2] removing copyreg
+# cleanup[2] removing re
+# cleanup[2] removing sitecustomize
+# destroy sitecustomize
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing django.utils
+# cleanup[2] removing _datetime
+# cleanup[2] removing datetime
+# cleanup[2] removing _locale
+# cleanup[2] removing locale
+# cleanup[2] removing signal
+# cleanup[2] removing warnings
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing threading
+# cleanup[2] removing contextlib
+# cleanup[2] removing fcntl
+# cleanup[2] removing _posixsubprocess
+# cleanup[2] removing select
+# cleanup[2] removing math
+# cleanup[2] removing selectors
+# cleanup[2] removing subprocess
+# cleanup[2] removing weakref
+# cleanup[2] removing copy
+# cleanup[2] removing django.utils.functional
+# cleanup[2] removing django.utils.regex_helper
+# cleanup[2] removing django.utils.version
+# cleanup[2] removing django
+# cleanup[2] removing django.core
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib._abc
+# cleanup[2] removing importlib.util
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing _typing
+# cleanup[2] removing typing
+# destroy typing
+# cleanup[2] removing pkgutil
+# cleanup[2] removing gettext
+# cleanup[2] removing argparse
+# cleanup[2] removing _heapq
+# cleanup[2] removing heapq
+# cleanup[2] removing difflib
+# destroy difflib
+# cleanup[2] removing _ast
+# destroy _ast
+# cleanup[2] removing ast
+# cleanup[2] removing _opcode
+# cleanup[2] removing _opcode_metadata
+# destroy _opcode_metadata
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing dis
+# cleanup[2] removing linecache
+# cleanup[2] removing token
+# cleanup[2] removing _tokenize
+# cleanup[2] removing tokenize
+# cleanup[2] removing inspect
+# cleanup[2] removing django.utils.hashable
+# cleanup[2] removing django.core.exceptions
+# cleanup[2] removing django.utils.module_loading
+# cleanup[2] removing django.apps.config
+# cleanup[2] removing django.apps.registry
+# cleanup[2] removing django.apps
+# cleanup[2] removing textwrap
+# cleanup[2] removing __future__
+# destroy __future__
+# cleanup[2] removing _colorize
+# cleanup[2] removing traceback
+# cleanup[2] removing fnmatch
+# cleanup[2] removing glob
+# cleanup[2] removing pathlib._abc
+# cleanup[2] removing ntpath
+# cleanup[2] removing pwd
+# cleanup[2] removing grp
+# cleanup[2] removing pathlib._local
+# cleanup[2] removing pathlib
+# cleanup[2] removing django.conf.global_settings
+# cleanup[2] removing asgiref
+# destroy asgiref
+# cleanup[2] removing concurrent
+# cleanup[2] removing _string
+# cleanup[2] removing string
+# cleanup[2] removing atexit
+# cleanup[2] removing logging
+# cleanup[2] removing concurrent.futures._base
+# cleanup[2] removing concurrent.futures
+# cleanup[2] removing _socket
+# cleanup[2] removing array
+# cleanup[2] removing socket
+# cleanup[2] removing _ssl
+# cleanup[2] removing _struct
+# cleanup[2] removing struct
+# cleanup[2] removing binascii
+# cleanup[2] removing base64
+# cleanup[2] removing ssl
+# cleanup[2] removing asyncio.constants
+# cleanup[2] removing asyncio.coroutines
+# cleanup[2] removing _contextvars
+# cleanup[2] removing contextvars
+# cleanup[2] removing asyncio.format_helpers
+# cleanup[2] removing asyncio.base_futures
+# cleanup[2] removing asyncio.exceptions
+# cleanup[2] removing asyncio.base_tasks
+# cleanup[2] removing _asyncio
+# cleanup[2] removing asyncio.events
+# cleanup[2] removing asyncio.futures
+# cleanup[2] removing asyncio.protocols
+# cleanup[2] removing asyncio.transports
+# cleanup[2] removing asyncio.log
+# cleanup[2] removing asyncio.sslproto
+# cleanup[2] removing asyncio.mixins
+# cleanup[2] removing asyncio.locks
+# cleanup[2] removing asyncio.queues
+# cleanup[2] removing asyncio.timeouts
+# cleanup[2] removing asyncio.tasks
+# cleanup[2] removing asyncio.staggered
+# cleanup[2] removing asyncio.trsock
+# cleanup[2] removing asyncio.base_events
+# cleanup[2] removing asyncio.runners
+# cleanup[2] removing asyncio.streams
+# cleanup[2] removing asyncio.subprocess
+# cleanup[2] removing asyncio.taskgroups
+# cleanup[2] removing asyncio.threads
+# cleanup[2] removing asyncio.base_subprocess
+# cleanup[2] removing asyncio.selector_events
+# cleanup[2] removing asyncio.unix_events
+# cleanup[2] removing asyncio
+# cleanup[2] removing _queue
+# cleanup[2] removing queue
+# cleanup[2] removing concurrent.futures.thread
+# cleanup[2] removing asgiref.current_thread_executor
+# destroy asgiref.current_thread_executor
+# cleanup[2] removing asgiref.local
+# destroy asgiref.local
+# cleanup[2] removing asgiref.sync
+# destroy asgiref.sync
+# cleanup[2] removing django.utils.deprecation
+# cleanup[2] removing django.conf
+# cleanup[2] removing django.core.checks.messages
+# cleanup[2] removing django.utils.inspect
+# cleanup[2] removing django.core.checks.registry
+# cleanup[2] removing django.core.checks.async_checks
+# cleanup[2] removing django.dispatch.dispatcher
+# cleanup[2] removing django.dispatch
+# cleanup[2] removing django.core.signals
+# cleanup[2] removing django.core.cache.backends
+# cleanup[2] removing django.core.cache.backends.base
+# cleanup[2] removing django.utils.connection
+# cleanup[2] removing django.core.cache
+# cleanup[2] removing _compat_pickle
+# cleanup[2] removing _pickle
+# cleanup[2] removing pickle
+# cleanup[2] removing _bisect
+# cleanup[2] removing bisect
+# destroy bisect
+# cleanup[2] removing _random
+# cleanup[2] removing random
+# cleanup[2] removing zlib
+# cleanup[2] removing _compression
+# cleanup[2] removing _bz2
+# cleanup[2] removing bz2
+# destroy bz2
+# cleanup[2] removing _lzma
+# cleanup[2] removing lzma
+# destroy lzma
+# cleanup[2] removing shutil
+# cleanup[2] removing tempfile
+# cleanup[2] removing _hashlib
+# cleanup[2] removing _blake2
+# cleanup[2] removing hashlib
+# cleanup[2] removing django.core.files.utils
+# cleanup[2] removing django.core.files.base
+# cleanup[2] removing django.core.files
+# cleanup[2] removing django.core.files.locks
+# cleanup[2] removing django.core.files.move
+# cleanup[2] removing django.utils._os
+# cleanup[2] removing django.core.cache.backends.filebased
+# cleanup[2] removing django.core.checks.caches
+# cleanup[2] removing django.core.checks.commands
+# cleanup[2] removing django.core.checks.compatibility
+# cleanup[2] removing django.core.checks.compatibility.django_4_0
+# cleanup[2] removing django.db.utils
+# cleanup[2] removing django.db
+# cleanup[2] removing django.core.checks.database
+# cleanup[2] removing django.core.checks.files
+# cleanup[2] removing django.core.checks.model_checks
+# cleanup[2] removing django.core.checks.security
+# cleanup[2] removing django.core.checks.security.base
+# cleanup[2] removing django.core.checks.security.csrf
+# cleanup[2] removing django.core.checks.security.sessions
+# cleanup[2] removing django.core.checks.templates
+# cleanup[2] removing numbers
+# destroy numbers
+# cleanup[2] removing _decimal
+# cleanup[2] removing decimal
+# destroy decimal
+# cleanup[2] removing termios
+# cleanup[2] removing django.utils.autoreload
+# cleanup[2] removing django.utils.translation
+# cleanup[2] removing django.conf.locale
+# cleanup[2] removing django.utils.safestring
+# cleanup[2] removing django.utils.translation.trans_real
+# cleanup[2] removing django.core.checks.translation
+# cleanup[2] removing django.core.checks.urls
+# cleanup[2] removing django.core.checks
+# cleanup[2] removing django.utils.termcolors
+# cleanup[2] removing django.core.management.color
+# cleanup[2] removing django.core.management.base
+# cleanup[2] removing django.core.management
+# cleanup[2] removing pymysql.constants
+# cleanup[2] removing pymysql.constants.FIELD_TYPE
+# cleanup[2] removing pymysql.constants.ER
+# cleanup[2] removing pymysql.err
+# cleanup[2] removing pymysql.times
+# cleanup[2] removing pymysql._auth
+# cleanup[2] removing pymysql.converters
+# cleanup[2] removing pymysql.charset
+# cleanup[2] removing pymysql.constants.CLIENT
+# cleanup[2] removing pymysql.constants.COMMAND
+# cleanup[2] removing pymysql.constants.CR
+# cleanup[2] removing pymysql.constants.SERVER_STATUS
+# cleanup[2] removing pymysql.cursors
+# cleanup[2] removing configparser
+# cleanup[2] removing pymysql.optionfile
+# cleanup[2] removing pymysql.protocol
+# cleanup[2] removing getpass
+# destroy getpass
+# cleanup[2] removing pymysql.connections
+# cleanup[2] removing pymysql
+# cleanup[2] removing MySQLdb
+# cleanup[2] removing canaco
+# destroy canaco
+# destroy pymysql
+# cleanup[2] removing canaco.settings
+# destroy canaco.settings
+# cleanup[2] removing urllib
+# cleanup[2] removing ipaddress
+# cleanup[2] removing urllib.parse
+# cleanup[2] removing http
+# cleanup[2] removing http.cookies
+# cleanup[2] removing django.http.cookie
+# destroy django.http.cookie
+# cleanup[2] removing _json
+# cleanup[2] removing json.scanner
+# cleanup[2] removing json.decoder
+# cleanup[2] removing json.encoder
+# cleanup[2] removing json
+# cleanup[2] removing hmac
+# cleanup[2] removing secrets
+# cleanup[2] removing django.utils.encoding
+# cleanup[2] removing django.utils.crypto
+# cleanup[2] removing django.core.signing
+# cleanup[2] removing django.core.files.temp
+# cleanup[2] removing django.core.files.uploadedfile
+# cleanup[2] removing django.core.files.uploadhandler
+# cleanup[2] removing html.entities
+# cleanup[2] removing html
+# cleanup[2] removing django.utils.datastructures
+# cleanup[2] removing unicodedata
+# cleanup[2] removing email
+# cleanup[2] removing email._parseaddr
+# cleanup[2] removing email.utils
+# cleanup[2] removing django.utils.http
+# cleanup[2] removing django.http.multipartparser
+# destroy django.http.multipartparser
+# cleanup[2] removing django.http.request
+# destroy django.http.request
+# cleanup[2] removing mimetypes
+# destroy mimetypes
+# cleanup[2] removing email.quoprimime
+# cleanup[2] removing email.base64mime
+# cleanup[2] removing email.errors
+# cleanup[2] removing quopri
+# cleanup[2] removing email.encoders
+# cleanup[2] removing email.charset
+# cleanup[2] removing email.header
+# cleanup[2] removing email._policybase
+# cleanup[2] removing email.feedparser
+# cleanup[2] removing email.parser
+# cleanup[2] removing email._encoded_words
+# cleanup[2] removing email.iterators
+# cleanup[2] removing email.message
+# cleanup[2] removing http.client
+# cleanup[2] removing gc
+# destroy django.utils.functional
+# destroy django.utils.regex_helper
+# destroy django.utils.version
+# destroy django.utils.hashable
+# destroy django.utils.module_loading
+# destroy django.utils.deprecation
+# destroy django.utils.inspect
+# destroy django.utils.connection
+# destroy django.utils._os
+# destroy django.utils.translation
+# destroy django.utils.safestring
+# destroy django.utils.encoding
+# destroy django.utils.crypto
+# destroy django.utils.datastructures
+# destroy django.utils.http
+# destroy _datetime
+# destroy django.core.exceptions
+# destroy django.core.cache
+# destroy django.core.files
+# destroy django.core.files.utils
+# destroy django.core.files.base
+# destroy django.core.files.move
+# destroy django.core.files.uploadedfile
+# destroy django.core.management
+# destroy zipimport
+# destroy django.apps.config
+# destroy django.apps.registry
+# destroy pathlib._abc
+# destroy pathlib._local
+# destroy pwd
+# destroy grp
+# destroy ntpath
+# destroy _sitebuiltins
+# destroy django.utils
+# destroy django.core
+# destroy django.apps
+# destroy django.conf
+# destroy django.dispatch
+# destroy django.dispatch.dispatcher
+# destroy django.db
+# destroy gc
+# destroy django.core.checks.messages
+# destroy django.core.checks.registry
+# destroy django.core.checks.async_checks
+# destroy django.core.checks.caches
+# destroy django.core.checks.commands
+# destroy django.core.checks.compatibility
+# destroy django.core.checks.compatibility.django_4_0
+# destroy django.core.checks.database
+# destroy django.core.checks.files
+# destroy django.core.checks.model_checks
+# destroy django.core.checks.security
+# destroy django.core.checks.security.base
+# destroy django.core.checks.security.csrf
+# destroy django.core.checks.security.sessions
+# destroy django.core.checks.templates
+# destroy django.core.checks.translation
+# destroy django.core.checks.urls
+# destroy django.core.cache.backends.base
+# destroy django.core.cache.backends.filebased
+# destroy django.core.cache.backends
+# destroy _compat_pickle
+# destroy _pickle
+# destroy _bz2
+# destroy _blake2
+# destroy shutil
+# destroy fnmatch
+# destroy _lzma
+# destroy _compression
+# destroy _decimal
+# destroy pathlib
+# destroy django.core.signals
+# destroy django.db.utils
+# destroy gettext
+# destroy django.utils.termcolors
+# destroy urllib.parse
+# destroy configparser
+# destroy termios
+# destroy http.cookies
+# destroy http.client
+# destroy string
+# destroy json.decoder
+# destroy json.encoder
+# destroy json.scanner
+# destroy _json
+# destroy django.core.files.temp
+# destroy html
+# destroy html.entities
+# destroy unicodedata
+# destroy email._parseaddr
+# destroy email.quoprimime
+# destroy email.base64mime
+# destroy email.encoders
+# destroy email._policybase
+# destroy email.feedparser
+# destroy email.parser
+# destroy email._encoded_words
+# destroy email.iterators
+# destroy email.message
+# destroy urllib
+# destroy pkgutil
+# destroy django.core.management.color
+# destroy django.core.management.base
+# destroy django.utils.autoreload
+# destroy django.conf.locale
+# destroy http
+# destroy email.header
+# destroy quopri
+# destroy email.utils
+# destroy email.errors
+# destroy argparse
+# destroy django
+# destroy django.core.checks
+# destroy glob
+# destroy pickle
+# destroy random
+# destroy tempfile
+# destroy django.core.files.locks
+# destroy _hashlib
+# destroy django.utils.translation.trans_real
+# destroy pymysql.constants
+# destroy pymysql.times
+# destroy pymysql.charset
+# destroy pymysql.cursors
+# destroy pymysql.optionfile
+# destroy pymysql.protocol
+# destroy pymysql.connections
+# destroy pymysql._auth
+# destroy pymysql.converters
+# destroy pymysql.err
+# destroy pymysql.constants.CLIENT
+# destroy pymysql.constants.COMMAND
+# destroy pymysql.constants.CR
+# destroy pymysql.constants.ER
+# destroy pymysql.constants.FIELD_TYPE
+# destroy pymysql.constants.SERVER_STATUS
+# destroy ipaddress
+# destroy copy
+# destroy django.core.signing
+# destroy django.core.files.uploadhandler
+# destroy json
+# destroy zlib
+# destroy hashlib
+# destroy hmac
+# destroy secrets
+# destroy datetime
+# destroy email
+# destroy email.charset
+# destroy django.conf.global_settings
+# cleanup[3] wiping _random
+# cleanup[3] wiping _bisect
+# cleanup[3] wiping concurrent.futures.thread
+# destroy queue
+# cleanup[3] wiping _queue
+# cleanup[3] wiping asyncio
+# destroy asyncio.log
+# destroy asyncio.runners
+# destroy asyncio.subprocess
+# destroy asyncio.taskgroups
+# destroy asyncio.threads
+# destroy asyncio.unix_events
+# cleanup[3] wiping asyncio.selector_events
+# cleanup[3] wiping asyncio.base_subprocess
+# cleanup[3] wiping asyncio.streams
+# cleanup[3] wiping asyncio.base_events
+# destroy asyncio.sslproto
+# destroy asyncio.staggered
+# destroy asyncio.trsock
+# cleanup[3] wiping asyncio.tasks
+# destroy asyncio.base_tasks
+# destroy asyncio.queues
+# destroy asyncio.timeouts
+# cleanup[3] wiping asyncio.locks
+# cleanup[3] wiping asyncio.mixins
+# cleanup[3] wiping asyncio.transports
+# cleanup[3] wiping asyncio.protocols
+# cleanup[3] wiping asyncio.futures
+# destroy concurrent
+# destroy concurrent.futures
+# cleanup[3] wiping asyncio.events
+# cleanup[3] wiping _asyncio
+# cleanup[3] wiping asyncio.exceptions
+# cleanup[3] wiping asyncio.base_futures
+# destroy asyncio.format_helpers
+# cleanup[3] wiping contextvars
+# cleanup[3] wiping _contextvars
+# destroy _contextvars
+# cleanup[3] wiping asyncio.coroutines
+# cleanup[3] wiping asyncio.constants
+# cleanup[3] wiping ssl
+# destroy base64
+# cleanup[3] wiping binascii
+# cleanup[3] wiping struct
+# cleanup[3] wiping _struct
+# cleanup[3] wiping _ssl
+# cleanup[3] wiping socket
+# cleanup[3] wiping array
+# cleanup[3] wiping _socket
+# cleanup[3] wiping concurrent.futures._base
+# destroy logging
+# cleanup[3] wiping atexit
+# cleanup[3] wiping _string
+# cleanup[3] wiping traceback
+# destroy _colorize
+# destroy textwrap
+# cleanup[3] wiping inspect
+# destroy ast
+# destroy dis
+# destroy importlib
+# destroy tokenize
+# destroy token
+# cleanup[3] wiping _tokenize
+# cleanup[3] wiping linecache
+# cleanup[3] wiping _opcode
+# cleanup[3] wiping heapq
+# cleanup[3] wiping _heapq
+# cleanup[3] wiping _typing
+# cleanup[3] wiping importlib.machinery
+# cleanup[3] wiping importlib.util
+# cleanup[3] wiping importlib._abc
+# cleanup[3] wiping importlib._bootstrap_external
+# cleanup[3] wiping importlib._bootstrap
+# cleanup[3] wiping weakref
+# cleanup[3] wiping subprocess
+# destroy locale
+# cleanup[3] wiping selectors
+# cleanup[3] wiping math
+# cleanup[3] wiping select
+# cleanup[3] wiping _posixsubprocess
+# destroy _posixsubprocess
+# cleanup[3] wiping fcntl
+# destroy fcntl
+# cleanup[3] wiping contextlib
+# cleanup[3] wiping threading
+# cleanup[3] wiping warnings
+# cleanup[3] wiping signal
+# cleanup[3] wiping _locale
+# cleanup[3] wiping re
+# destroy re._constants
+# destroy re._casefix
+# destroy re._compiler
+# cleanup[3] wiping copyreg
+# cleanup[3] wiping re._parser
+# cleanup[3] wiping _sre
+# cleanup[3] wiping enum
+# cleanup[3] wiping types
+# cleanup[3] wiping functools
+# cleanup[3] wiping _functools
+# cleanup[3] wiping collections
+# cleanup[3] wiping _collections
+# cleanup[3] wiping reprlib
+# cleanup[3] wiping operator
+# cleanup[3] wiping _operator
+# cleanup[3] wiping itertools
+# cleanup[3] wiping collections.abc
+# cleanup[3] wiping os
+# destroy posixpath
+# cleanup[3] wiping genericpath
+# cleanup[3] wiping errno
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# destroy _stat
+# cleanup[3] wiping io
+# destroy abc
+# cleanup[3] wiping _abc
+# cleanup[3] wiping _signal
+# destroy _signal
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping encodings
+# destroy codecs
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping time
+# cleanup[3] wiping _frozen_importlib_external
+# cleanup[3] wiping posix
+# cleanup[3] wiping marshal
+# destroy marshal
+# cleanup[3] wiping _io
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy sys.monitoring
+# destroy _asyncio
+# destroy _socket
+# destroy linecache
+# destroy reprlib
+# destroy asyncio.base_futures
+# destroy _collections
+# destroy genericpath
+# destroy re._parser
+# destroy _functools
+# destroy array
+# destroy encodings
+# destroy _collections_abc
+# destroy _locale
+# destroy heapq
+# destroy asyncio.mixins
+# destroy ssl
+# destroy asyncio.locks
+# destroy enum
+# destroy asyncio.protocols
+# destroy asyncio.streams
+# destroy errno
+# destroy selectors
+# destroy signal
+# destroy socket
+# destroy stat
+# destroy subprocess
+# destroy asyncio.base_events
+# destroy asyncio.base_subprocess
+# destroy asyncio.constants
+# destroy asyncio.coroutines
+# destroy asyncio.events
+# destroy asyncio.exceptions
+# destroy asyncio.futures
+# destroy asyncio.selector_events
+# destroy asyncio.tasks
+# destroy asyncio.transports
+# destroy _opcode
+# destroy _imp
+# destroy _frozen_importlib_external
+# destroy importlib._abc
+# destroy importlib.util
+# destroy importlib.machinery
+# destroy _io
+# destroy copyreg
+# destroy operator
+# destroy _warnings
+# destroy _typing
+# destroy _tokenize
+# destroy types
+# destroy _heapq
+# destroy concurrent.futures._base
+# destroy concurrent.futures.thread
+# destroy _ssl
+# destroy struct
+# destroy binascii
+# destroy _queue
+# destroy functools
+# destroy inspect
+# destroy asyncio
+# destroy contextlib
+# destroy contextvars
+# destroy _struct
+# clear sys.meta_path
+# clear sys.modules
+# destroy _frozen_importlib
+# destroy io
+# destroy traceback
+# destroy warnings
+# destroy weakref
+# destroy collections
+# destroy threading
+# destroy atexit
+# destroy time
+# destroy _weakref
+# destroy _string
+# destroy re
+# destroy math
+# destroy _bisect
+# destroy os
+# destroy _random
+# destroy select
+# destroy _sre
+# destroy sys
+# destroy _codecs
+# destroy posix
+# destroy _operator
+# destroy _abc
+# destroy _thread
+# destroy itertools
+# destroy builtins
+# clear sys.audit hooks

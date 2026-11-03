@@ -1,0 +1,148 @@
+
+{% extends 'partials/sidebar_base.html' %}
+{% load static %}
+
+{% block title %}Cambiar Contraseña - Canaco{% endblock title %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <div class="row justify-content-center">
+        <div class="col-lg-9">
+
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+
+                    <!-- Título -->
+                    <h3 class="mb-3">
+                        Cambiar contraseña
+                    </h3>
+
+                    <p class="text-muted mb-4">
+                        Esta acción modificará la contraseña de tu cuenta:
+                        <strong>{{ request.user.username }}</strong>.
+                    </p>
+
+                    <!-- Mensajes de Django -->
+                    {% if messages %}
+                        {% for message in messages %}
+
+                            <div class="alert {% if message.tags == 'success' %}alert-success{% else %}alert-danger{% endif %} alert-dismissible fade show"
+                                 role="alert">
+
+                                {{ message }}
+
+                                <button type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="alert"
+                                        aria-label="Cerrar">
+                                </button>
+
+                            </div>
+
+                        {% endfor %}
+                    {% endif %}
+
+                    <!-- Formulario para cambiar contraseña -->
+                    <form method="POST"
+                          action="{% url 'home:crud_cambiar_contrasena' %}">
+
+                        {% csrf_token %}
+
+                        <!-- Contraseña actual -->
+                        <div class="mb-3">
+
+                            <label for="actual" class="form-label">
+                                Contraseña actual
+                            </label>
+
+                            <input
+                                type="password"
+                                id="actual"
+                                name="actual"
+                                class="form-control"
+                                placeholder="Ingresa tu contraseña actual"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                        </div>
+
+                        <!-- Nueva contraseña -->
+                        <div class="mb-3">
+
+                            <label for="nueva" class="form-label">
+                                Nueva contraseña
+                            </label>
+
+                            <input
+                                type="password"
+                                id="nueva"
+                                name="nueva"
+                                class="form-control"
+                                placeholder="Ingresa tu nueva contraseña"
+                                autocomplete="new-password"
+                                minlength="8"
+                                required
+                            >
+
+                            <div class="form-text">
+                                Utiliza una contraseña segura de al menos
+                                8 caracteres.
+                            </div>
+
+                        </div>
+
+                        <!-- Confirmar nueva contraseña -->
+                        <div class="mb-4">
+
+                            <label for="confirmar" class="form-label">
+                                Confirmar nueva contraseña
+                            </label>
+
+                            <input
+                                type="password"
+                                id="confirmar"
+                                name="confirmar"
+                                class="form-control"
+                                placeholder="Confirma tu nueva contraseña"
+                                autocomplete="new-password"
+                                minlength="8"
+                                required
+                            >
+
+                        </div>
+
+                        <!-- Botones -->
+                        <div class="d-flex flex-wrap gap-2">
+
+                            <button type="submit"
+                                    class="btn btn-success">
+
+                                <i class="bi bi-key me-1"></i>
+                                Actualizar contraseña
+
+                            </button>
+
+                            <a href="{% url 'home:perfil' %}"
+                               class="btn btn-outline-secondary">
+
+                                <i class="bi bi-arrow-left me-1"></i>
+                                Volver a mi perfil
+
+                            </a>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}

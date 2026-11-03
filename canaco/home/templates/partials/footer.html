@@ -1,0 +1,182 @@
+
+{% load static %}
+
+<footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+
+        <div class="row gy-4">
+
+            <!-- INFORMACIÓN DE CANACO -->
+            <div class="col-lg-4 col-md-6 footer-about">
+
+                <a href="{% url 'home:index' %}"
+                   class="logo d-flex align-items-center">
+
+                    <span class="sitename">Canaco</span>
+
+                </a>
+
+                <div class="footer-contact pt-3">
+
+                    <p>Villahermosa, Tabasco</p>
+
+                    <p>México</p>
+
+                </div>
+
+                <div class="social-links d-flex mt-4">
+
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ENLACES -->
+            <div class="col-lg-2 col-md-3 footer-links">
+
+                <h4>Enlaces</h4>
+
+                <ul>
+
+                    <li>
+                        <a href="{% url 'home:index' %}">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'home:categoria' %}">Categorías</a>
+                    </li>
+
+                    <li>
+                        <a href="{% url 'home:noticia' %}">Noticias</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CATEGORÍAS -->
+            <div class="col-lg-2 col-md-3 footer-links">
+
+                <h4>Categorías</h4>
+
+                <ul>
+
+                    {% for categoria in global_categorias %}
+
+                    <li>
+                        <a href="{% url 'home:categoria_detalle' categoria.pk %}">
+                            {{ categoria.nombre }}
+                        </a>
+                    </li>
+
+                    {% empty %}
+
+                    <li>
+                        <span>No hay categorías disponibles</span>
+                    </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+
+
+            <!-- ENTRADAS RECIENTES -->
+            <div class="col-lg-4 col-md-12 footer-newsletter">
+
+                <h4>Entradas recientes</h4>
+
+                <div class="footer-recent-posts">
+
+                    {% for noticia in global_recientes %}
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <a href="{% url 'home:noticia_detalle' noticia.pk %}"
+                           class="me-3 flex-shrink-0">
+
+                            {% if noticia.imagen_portada %}
+
+                                <img src="{{ noticia.imagen_portada.display_url }}"
+                                     alt="{{ noticia.titulo }}"
+                                     class="rounded"
+                                     style="width: 70px; height: 70px; object-fit: cover;">
+
+                            {% else %}
+
+                                <img src="{% static 'img/hero-carousel/hero-carousel-1.jpg' %}"
+                                     alt="{{ noticia.titulo }}"
+                                     class="rounded"
+                                     style="width: 70px; height: 70px; object-fit: cover;">
+
+                            {% endif %}
+
+                        </a>
+
+                        <div>
+
+                            <h5 class="mb-1">
+
+                                <a href="{% url 'home:noticia_detalle' noticia.pk %}">
+                                    {{ noticia.titulo }}
+                                </a>
+
+                            </h5>
+
+                            <small class="text-white-50">
+                                {{ noticia.createdat|date:"d M, Y" }}
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                    {% empty %}
+
+                    <p class="text-white-50">
+                        No hay noticias recientes.
+                    </p>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- DERECHOS DE AUTOR -->
+    <div class="container copyright text-center mt-4">
+
+        <p>
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">Canaco</strong>
+            <span>Todos los derechos reservados</span>
+        </p>
+
+        <div class="credits">
+
+            Designed by
+            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Distributed by
+            <a href="https://themewagon.com/">ThemeWagon</a>
+
+        </div>
+
+    </div>
+
+</footer>

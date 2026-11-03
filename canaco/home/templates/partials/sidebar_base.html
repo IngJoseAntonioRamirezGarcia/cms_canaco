@@ -1,0 +1,132 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Panel de administración - Canaco{% endblock title %}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'favicon.png' %}">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS de Company -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+    {% block extra_css %}{% endblock extra_css %}
+
+    <!-- Estilos propios del panel -->
+    <style>
+        .panel-shell {
+            padding: 40px 0;
+            min-height: 65vh;
+        }
+
+        .panel-layout {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+
+        .panel-sidebar {
+            width: 250px;
+            flex-shrink: 0;
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 20px 12px;
+        }
+
+        .panel-nav-link {
+            color: #343a40;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin-bottom: 5px;
+        }
+
+        .panel-nav-link:hover,
+        .panel-nav-link.active {
+            background-color: #1bbd36;
+            color: white;
+        }
+
+        .panel-content {
+            min-width: 0;
+            flex: 1;
+        }
+
+        @media (max-width: 991px) {
+            .panel-layout {
+                flex-direction: column;
+            }
+
+            .panel-sidebar {
+                width: 100%;
+            }
+
+            .panel-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body class="index-page">
+
+    <!-- Encabezado de Company -->
+    {% include 'partials/header.html' %}
+
+    <!-- Panel de administración -->
+    <main id="main" class="panel-shell">
+
+        <div class="container">
+
+            <div class="panel-layout">
+
+                <!-- Menú lateral -->
+                {% include 'partials/sidebar.html' %}
+
+                <!-- Contenido principal -->
+                <div class="panel-content">
+
+                    {% block content %}
+                    {% endblock content %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Pie de página de Company -->
+    {% include 'partials/footer.html' %}
+
+    <!-- JavaScript de Company -->
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+    {% block extra_js %}{% endblock extra_js %}
+
+</body>
+</html>

@@ -1,4 +1,7 @@
-Django>=5.0
+asgiref==3.12.1
+Django==5.2.17
 django-mysql==4.19.0
-pymysql
+mysqlclient==2.2.8
+PyMySQL==1.2.3
+sqlparse==0.6.0
 tzdata==2026.2

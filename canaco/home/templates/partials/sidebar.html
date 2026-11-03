@@ -1,0 +1,92 @@
+
+{% load static %}
+
+{% with current=request.resolver_match.url_name %}
+
+<aside class="panel-sidebar">
+
+    <h5 class="text-center mb-4">
+        Panel de administración
+    </h5>
+
+    <ul class="nav nav-pills flex-column mb-auto">
+
+        <!-- Mi Perfil -->
+        <li class="nav-item">
+            <a href="{% url 'home:perfil' %}"
+               class="nav-link panel-nav-link {% if current == 'perfil' or current == 'crud_perfil' %}active{% endif %}">
+                <i class="bi bi-person-circle me-2"></i>
+                Mi Perfil
+            </a>
+        </li>
+
+        <!-- Noticias -->
+        <li class="nav-item">
+            <a href="{% url 'home:crud_noticias' %}"
+               class="nav-link panel-nav-link {% if current == 'crud_noticias' or current == 'crear_publicacion' %}active{% endif %}">
+                <i class="bi bi-newspaper me-2"></i>
+                Noticias
+            </a>
+        </li>
+
+        <!-- Categorías -->
+        <li class="nav-item">
+            <a href="{% url 'home:crud_categoria' %}"
+               class="nav-link panel-nav-link {% if current == 'crud_categoria' or current == 'editar_categoria' %}active{% endif %}">
+                <i class="bi bi-tags me-2"></i>
+                Categorías
+            </a>
+        </li>
+
+        <!-- Comentarios -->
+        <li class="nav-item">
+            <a href="{% url 'home:crud_comentarios' %}"
+               class="nav-link panel-nav-link {% if current == 'crud_comentarios' %}active{% endif %}">
+                <i class="bi bi-chat-dots me-2"></i>
+                Comentarios
+            </a>
+        </li>
+
+        <!-- Usuarios -->
+        <li class="nav-item">
+            <a href="{% url 'home:crud_usuarios' %}"
+               class="nav-link panel-nav-link {% if current == 'crud_usuarios' or current == 'crear_usuario' %}active{% endif %}">
+                <i class="bi bi-people me-2"></i>
+                Usuarios
+            </a>
+        </li>
+
+        <!-- Cambiar contraseña -->
+        <li class="nav-item">
+            <a href="{% url 'home:crud_cambiar_contrasena' %}"
+               class="nav-link panel-nav-link {% if current == 'crud_cambiar_contrasena' %}active{% endif %}">
+                <i class="bi bi-key me-2"></i>
+                Cambiar contraseña
+            </a>
+        </li>
+
+    </ul>
+
+    <hr>
+
+<!-- Cerrar sesión -->
+<form method="POST" action="{% url 'home:logout' %}" class="mb-3">
+    {% csrf_token %}
+
+    <button type="submit" class="btn btn-outline-danger w-100">
+        <i class="bi bi-box-arrow-right me-2"></i>
+        Cerrar sesión
+    </button>
+</form>
+
+
+    <!-- Regresar al inicio -->
+    <a href="{% url 'home:index' %}"
+       class="btn btn-outline-success w-100">
+        <i class="bi bi-house me-2"></i>
+        Volver al inicio
+    </a>
+
+</aside>
+
+{% endwith %}

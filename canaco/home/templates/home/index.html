@@ -1,0 +1,287 @@
+
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Inicio - Canaco{% endblock title %}
+
+{% block content %}
+
+<main class="main">
+
+    <!-- CARRUSEL PRINCIPAL -->
+    <section id="hero" class="hero section dark-background">
+
+        <div id="hero-carousel"
+             class="carousel slide carousel-fade"
+             data-bs-ride="carousel"
+             data-bs-interval="5000">
+
+            {% if slider %}
+
+                <div class="carousel-indicators">
+                    {% for noticia in slider %}
+                    <button type="button"
+                            data-bs-target="#hero-carousel"
+                            data-bs-slide-to="{{ forloop.counter0 }}"
+                            class="{% if forloop.first %}active{% endif %}"
+                            aria-label="Diapositiva {{ forloop.counter }}"
+                            {% if forloop.first %}aria-current="true"{% endif %}>
+                    </button>
+                    {% endfor %}
+                </div>
+
+                {% for noticia in slider %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+
+                    {% if noticia.imagen_portada %}
+                        <img src="{{ noticia.imagen_portada.display_url }}"
+                             alt="{{ noticia.titulo }}">
+                    {% else %}
+                        <img src="{% static 'img/hero-carousel/hero-carousel-1.jpg' %}"
+                             alt="Noticia destacada">
+                    {% endif %}
+
+                    <div class="container">
+
+                        <span class="text-white">
+                            {{ noticia.createdat|date:"d M Y" }}
+                        </span>
+
+                        <h2>{{ noticia.titulo }}</h2>
+
+                        <p>
+                            {{ noticia.resumen|truncatewords:30 }}
+                        </p>
+
+                        <a href="{% url 'home:noticia_detalle' noticia.pk %}"
+                           class="btn-get-started">
+                            Leer noticia
+                        </a>
+
+                    </div>
+
+                </div>
+                {% endfor %}
+
+            {% else %}
+
+                <div class="carousel-item active">
+
+                    <img src="{% static 'img/hero-carousel/hero-carousel-1.jpg' %}"
+                         alt="Noticias de Canaco">
+
+                    <div class="container">
+
+                        <h2>Bienvenido a Canaco</h2>
+
+                        <p>
+                            Conoce las noticias, novedades y acontecimientos
+                            más recientes de nuestra comunidad.
+                        </p>
+
+                        <a href="{% url 'home:categoria' %}"
+                           class="btn-get-started">
+                            Ver noticias
+                        </a>
+
+                    </div>
+
+                </div>
+
+            {% endif %}
+
+            <!-- CONTROLES DEL CARRUSEL -->
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#hero-carousel"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon bi bi-chevron-left"
+                      aria-hidden="true"></span>
+
+                <span class="visually-hidden">Anterior</span>
+
+            </button>
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#hero-carousel"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon bi bi-chevron-right"
+                      aria-hidden="true"></span>
+
+                <span class="visually-hidden">Siguiente</span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- NOTICIAS RECIENTES -->
+    <section id="noticias-recientes" class="section">
+
+        <div class="container">
+
+            <div class="row mb-4 align-items-center">
+
+                <div class="col-lg-8">
+
+                    <h2>Noticias recientes</h2>
+
+                    <p class="text-muted">
+                        Consulta las últimas noticias y publicaciones de Canaco.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 text-lg-end">
+
+                    <a href="{% url 'home:categoria' %}"
+                       class="btn btn-outline-success">
+
+                        Ver todas
+                        <i class="bi bi-arrow-right ms-1"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="row gy-4">
+
+                {% for noticia in publicaciones %}
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        {% if noticia.imagen_portada %}
+
+                            <img src="{{ noticia.imagen_portada.display_url }}"
+                                 class="card-img-top"
+                                 alt="{{ noticia.titulo }}"
+                                 style="height: 230px; object-fit: cover;">
+
+                        {% else %}
+
+                            <img src="{% static 'img/hero-carousel/hero-carousel-1.jpg' %}"
+                                 class="card-img-top"
+                                 alt="Imagen de noticia"
+                                 style="height: 230px; object-fit: cover;">
+
+                        {% endif %}
+
+
+                        <div class="card-body">
+
+                            <span class="text-muted small">
+
+                                {{ noticia.createdat|date:"d M Y" }}
+
+                                {% if noticia.categoria %}
+                                    | {{ noticia.categoria.nombre }}
+                                {% endif %}
+
+                            </span>
+
+
+                            <h4 class="card-title mt-3">
+                                {{ noticia.titulo }}
+                            </h4>
+
+
+                            <p class="card-text">
+                                {{ noticia.resumen|truncatewords:25 }}
+                            </p>
+
+
+                            <a href="{% url 'home:noticia_detalle' noticia.pk %}"
+                               class="btn btn-success">
+
+                                Leer más
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="card-footer bg-white border-0 pb-3">
+
+                            <small class="text-muted">
+
+                                <i class="bi bi-eye me-1"></i>
+
+                                Visitas: {{ noticia.visitas }}
+
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% empty %}
+
+                <div class="col-12">
+
+                    <div class="text-center py-5">
+
+                        <i class="bi bi-newspaper fs-1 text-muted"></i>
+
+                        <h4 class="mt-3">
+                            No hay noticias disponibles
+                        </h4>
+
+                        <p class="text-muted">
+                            Actualmente no existen publicaciones para mostrar.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORÍAS -->
+    <section id="categorias" class="section light-background">
+
+        <div class="container text-center">
+
+            <h2 class="mb-3">
+                Explora nuestras categorías
+            </h2>
+
+            <p class="text-muted mb-4">
+                Encuentra noticias y publicaciones de acuerdo
+                con tus intereses.
+            </p>
+
+            <a href="{% url 'home:categoria' %}"
+               class="btn btn-success">
+
+                <i class="bi bi-tags me-1"></i>
+
+                Explorar categorías
+
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+{% endblock content %}

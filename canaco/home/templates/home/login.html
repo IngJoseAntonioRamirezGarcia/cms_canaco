@@ -1,0 +1,113 @@
+
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Iniciar sesión - Canaco{% endblock %}
+
+{% block content %}
+
+<!-- Título de la página -->
+<section class="page-title light-background">
+    <div class="container">
+        <h1>Iniciar sesión</h1>
+
+        <nav class="breadcrumbs">
+            <ol>
+                <li>
+                    <a href="{% url 'home:index' %}">Inicio</a>
+                </li>
+                <li class="current">Iniciar sesión</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- Formulario de inicio de sesión -->
+<section class="section">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-8">
+
+                <div class="card border-0 shadow-sm p-4">
+
+                    <div class="card-body">
+
+                        <h3 class="text-center mb-4">
+                            Iniciar sesión
+                        </h3>
+
+                        {% if form.errors %}
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            Usuario o contraseña incorrectos.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                        </div>
+                        {% endif %}
+
+                        {% if messages %}
+                            {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                            </div>
+                            {% endfor %}
+                        {% endif %}
+
+                        <form method="POST">
+                            {% csrf_token %}
+
+                            <div class="mb-3">
+                                <label for="username" class="form-label">
+                                    Usuario
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="username"
+                                    name="username"
+                                    placeholder="Ingresa tu usuario"
+                                    required
+                                >
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="password" class="form-label">
+                                    Contraseña
+                                </label>
+
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Ingresa tu contraseña"
+                                    required
+                                >
+                            </div>
+
+                            <div class="d-grid gap-2">
+
+                                <button type="submit" class="btn btn-success">
+                                    Ingresar
+                                </button>
+
+                                <a href="{% url 'home:signup' %}"
+                                   class="btn btn-outline-secondary">
+                                    Crear cuenta
+                                </a>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock content %}

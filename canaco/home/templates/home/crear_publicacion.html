@@ -1,0 +1,210 @@
+
+{% extends 'partials/sidebar_base.html' %}
+{% load static %}
+
+{% block title %}
+    {% if publicacion %}Editar Publicación{% else %}Crear Publicación{% endif %}
+{% endblock title %}
+
+{% block extra_css %}
+
+<link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
+
+<style>
+    .ql-editor.ql-blank::before {
+        left: 15px;
+        font-style: normal;
+    }
+
+    #editor {
+        min-height: 300px;
+        background-color: white;
+    }
+</style>
+
+{% endblock extra_css %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4 text-center">
+        {% if publicacion %}
+            Editar Publicación
+        {% else %}
+            Crear Nueva Publicación
+        {% endif %}
+    </h2>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-4">
+
+            <form class="formEditor" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <!-- Título -->
+                <div class="mb-3">
+                    <label for="titulo" class="form-label">Título</label>
+
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="titulo"
+                        name="titulo"
+                        value="{{ publicacion.titulo|default:'' }}"
+                        placeholder="Título de la publicación"
+                        required
+                    >
+                </div>
+
+                <!-- Resumen -->
+                <div class="mb-3">
+                    <label for="resumen" class="form-label">Resumen</label>
+
+                    <textarea
+                        class="form-control"
+                        id="resumen"
+                        name="resumen"
+                        rows="3"
+                        placeholder="Escribe un resumen de la noticia"
+                        required
+                    >{{ publicacion.resumen|default:'' }}</textarea>
+                </div>
+
+                <div class="row">
+
+                    <!-- Categoría -->
+                    <div class="col-md-6 mb-3">
+                        <label for="categoria" class="form-label">
+                            Categoría
+                        </label>
+
+                        <select class="form-select" id="categoria" name="categoria">
+                            <option value="">Sin categoría</option>
+
+                            {% for categoria in categorias %}
+                                <option
+                                    value="{{ categoria.id }}"
+                                    {% if publicacion.categoria_id == categoria.id %}selected{% endif %}
+                                >
+                                    {{ categoria.nombre }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Estado -->
+                    <div class="col-md-6 mb-3">
+                        <label for="estado" class="form-label">
+                            Estado
+                        </label>
+
+                        <select class="form-select" id="estado" name="estado">
+
+                            <option value="borrador"
+                                {% if publicacion.estado == 'borrador' %}selected{% endif %}>
+                                Borrador
+                            </option>
+
+                            <option value="publicado"
+                                {% if publicacion.estado == 'publicado' %}selected{% endif %}>
+                                Publicado
+                            </option>
+
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Imagen de portada -->
+                <div class="mb-3">
+                    <label for="imagen_portada" class="form-label">
+                        Imagen de portada
+                    </label>
+
+                    <input
+                        type="file"
+                        class="form-control"
+                        id="imagen_portada"
+                        name="imagen_portada"
+                        accept="image/*"
+                    >
+
+                    {% if publicacion.imagen_portada %}
+                        <small class="text-muted">
+                            Imagen actual: {{ publicacion.imagen_portada.nombre }}
+                        </small>
+                    {% endif %}
+                </div>
+
+                <!-- Editor de contenido -->
+                <div class="mb-3">
+                    <label for="editor" class="form-label">
+                        Contenido
+                    </label>
+
+                    <div id="editor">
+                        {% if publicacion %}
+                            {{ publicacion.contenido|safe }}
+                        {% endif %}
+                    </div>
+
+                    <input type="hidden" name="contenido" id="contenido">
+                </div>
+
+                <!-- Galería -->
+                <div class="mb-4">
+                    <label for="galeria" class="form-label">
+                        Galería de imágenes
+                    </label>
+
+                    <input
+                        type="file"
+                        class="form-control"
+                        id="galeria"
+                        name="galeria"
+                        accept="image/*"
+                        multiple
+                    >
+                </div>
+
+                <!-- Botones -->
+                <div class="d-grid gap-2">
+
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-save me-1"></i>
+                        Guardar publicación
+                    </button>
+
+                    <a href="{% url 'home:crud_noticias' %}"
+                       class="btn btn-outline-secondary">
+                        Cancelar
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+
+<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.min.js"></script>
+
+<script>
+    const quill = new Quill('#editor', {
+        theme: 'snow',
+        placeholder: 'Escribe el contenido de tu publicación aquí...'
+    });
+
+    document.querySelector('.formEditor').addEventListener('submit', function () {
+        document.querySelector('#contenido').value = quill.root.innerHTML;
+    });
+</script>
+
+{% endblock extra_js %}

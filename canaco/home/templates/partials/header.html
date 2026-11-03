@@ -1,0 +1,99 @@
+
+{% load static %}
+
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center">
+
+        <!-- Logo -->
+        <a href="{% url 'home:index' %}" class="logo d-flex align-items-center me-auto">
+            <h1 class="sitename">Company</h1>
+            <span>.</span>
+        </a>
+
+        <!-- Menú de navegación -->
+        <nav id="navmenu" class="navmenu">
+            <ul>
+
+                <!-- Inicio -->
+                <li>
+                    <a href="{% url 'home:index' %}">Inicio</a>
+                </li>
+
+                <!-- Categorías -->
+                <li class="dropdown">
+                    <a href="{% url 'home:categoria' %}">
+                        <span>Categorías</span>
+                        <i class="bi bi-chevron-down toggle-dropdown"></i>
+                    </a>
+
+                    <ul>
+                        <li>
+                            <a href="{% url 'home:categoria' %}">
+                                Tecnología
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Noticia -->
+                <li>
+                    <a href="{% url 'home:noticia' %}">
+                        Noticias
+                    </a>
+                </li>
+
+                <!-- Contacto -->
+                <li>
+                    <a href="{% url 'home:contactanos' %}">
+                        Contacto
+                    </a>
+                </li>
+
+                <!-- Perfil -->
+                <li>
+                    <a href="{% url 'home:perfil' %}">
+                        Perfil
+                    </a>
+                </li>
+
+                <!-- Iniciar sesión -->
+                <li>
+                    <a href="{% url 'home:login' %}">
+                        Iniciar sesión
+                    </a>
+                </li>
+
+                <!-- Registro -->
+                <li>
+                    <a href="{% url 'home:signup' %}">
+                        Registro
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Menú para dispositivos móviles -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <!-- Redes sociales -->
+        <div class="header-social-links">
+            <a href="#" class="twitter">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+
+            <a href="#" class="facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#" class="instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#" class="linkedin">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+
+    </div>
+</header>

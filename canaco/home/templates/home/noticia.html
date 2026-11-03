@@ -1,0 +1,233 @@
+
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}{{ publicacion.titulo }} - Canaco{% endblock %}
+
+{% block content %}
+
+<section class="page-title light-background">
+    <div class="container">
+        <h1>{{ publicacion.titulo }}</h1>
+
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a href="{% url 'home:index' %}">Inicio</a></li>
+                <li class="current">Noticia</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        <div class="row gy-4">
+
+            <!-- Contenido principal -->
+            <div class="col-lg-8">
+
+                <h2 class="mb-4">{{ publicacion.titulo }}</h2>
+
+                {% if publicacion.imagen_portada %}
+                    <img
+                        src="{{ publicacion.imagen_portada.display_url }}"
+                        alt="{{ publicacion.titulo }}"
+                        class="img-fluid rounded mb-4"
+                        style="max-height: 450px; width: 100%; object-fit: cover; object-position: center;"
+                    >
+                {% endif %}
+
+                <div class="mb-4 text-muted">
+                    <span>{{ publicacion.createdat|date:"d M Y H:i" }}</span>
+                    <span>
+                        | Categoría:
+                        {% if publicacion.categoria %}
+                            {{ publicacion.categoria.nombre }}
+                        {% else %}
+                            Sin categoría
+                        {% endif %}
+                    </span>
+                    <span>| Visitas: {{ publicacion.visitas }}</span>
+                </div>
+
+                <h3>Resumen de la noticia</h3>
+
+                <p>
+                    {{ publicacion.resumen }}
+                </p>
+
+                <h3>Noticia</h3>
+
+                <div class="post-content-body">
+                    {{ publicacion.contenido|safe }}
+                </div>
+
+                <!-- Galería -->
+                <h3 class="mt-5">Galería</h3>
+
+                <div class="row my-4">
+
+                    {% for imagen in publicacion.galeria.all %}
+
+                        <div class="col-md-6 mb-4">
+                            <img
+                                src="{{ imagen.archivo.display_url }}"
+                                alt="Galería de noticia"
+                                class="img-fluid rounded"
+                                style="height: 250px; width: 100%; object-fit: cover; object-position: center;"
+                            >
+                        </div>
+
+                    {% empty %}
+
+                        <div class="col-12">
+                            <p>Sin imágenes en galería.</p>
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+
+                <!-- Comentarios -->
+                <div class="mt-5">
+
+                    <h3 class="mb-4">Comentarios</h3>
+
+                    {% for comentario in comentarios %}
+
+                        <div class="border-bottom pb-3 mb-3">
+                            <strong>{{ comentario.user.username }}</strong>
+
+                            <span class="text-muted">
+                                - {{ comentario.createdat|date:"d M Y H:i" }}
+                            </span>
+
+                            <p class="mb-0">
+                                {{ comentario.contenido }}
+                            </p>
+                        </div>
+
+                    {% empty %}
+
+                        <p>No hay comentarios aprobados todavía.</p>
+
+                    {% endfor %}
+
+                    {% if request.user.is_authenticated %}
+
+                        <form method="POST" class="mt-4">
+                            {% csrf_token %}
+
+                            <div class="mb-3">
+                                <label for="contenido" class="form-label">
+                                    Agregar comentario
+                                </label>
+
+                                <textarea
+                                    name="contenido"
+                                    id="contenido"
+                                    rows="4"
+                                    class="form-control"
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-success">
+                                Agregar comentario
+                            </button>
+                        </form>
+
+                    {% else %}
+
+                        <a href="{% url 'home:login' %}" class="btn btn-outline-success mt-3">
+                            Inicia sesión para comentar
+                        </a>
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+            <!-- Barra lateral -->
+            <div class="col-lg-4">
+
+                <div class="p-4 bg-light rounded mb-4">
+
+                    <h4>Otras noticias</h4>
+
+                    {% for noticia in recientes %}
+
+                        <div class="mb-4">
+
+                            <a href="{% url 'home:noticia_detalle' noticia.id %}">
+
+                                {% if noticia.imagen_portada %}
+                                    <img
+                                        src="{{ noticia.imagen_portada.display_url }}"
+                                        alt="{{ noticia.titulo }}"
+                                        class="img-fluid rounded mb-2"
+                                        style="width: 100%; height: 150px; object-fit: cover; object-position: center;"
+                                    >
+                                {% endif %}
+
+                                <h5>{{ noticia.titulo }}</h5>
+
+                            </a>
+
+                            <small class="text-muted">
+                                {{ noticia.createdat|date:"d M Y" }}
+                            </small>
+
+                        </div>
+
+                    {% empty %}
+
+                        <p>No hay otras noticias disponibles.</p>
+
+                    {% endfor %}
+
+                </div>
+
+                <div class="p-4 bg-light rounded">
+
+                    <h4>Categorías</h4>
+
+                    <ul class="list-unstyled">
+
+                        {% for categoria in categorias %}
+
+                            <li class="mb-2">
+                                <a href="{% url 'home:categoria_detalle' categoria.id %}">
+                                    {{ categoria.nombre }}
+                                </a>
+                            </li>
+
+                        {% empty %}
+
+                            <li>No hay categorías disponibles.</li>
+
+                        {% endfor %}
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock content %}
