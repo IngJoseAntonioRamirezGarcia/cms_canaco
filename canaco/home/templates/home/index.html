@@ -8,6 +8,8 @@
 
 <main class="main">
 
+
+
     <!-- CARRUSEL PRINCIPAL -->
     <section id="hero" class="hero section dark-background">
 
@@ -281,7 +283,35 @@
         </div>
 
     </section>
+<!-- ================= MODAL DE ANUNCIO / BIENVENIDA ================= -->
+  <div class="modal fade" id="modalIndex" tabindex="-1" aria-labelledby="modalIndexLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg">
+        <div class="modal-header border-bottom-0 pb-0">
+          <h5 class="modal-title fw-bold" id="modalIndexLabel">¡Bienvenido a Canaco!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body text-center pt-3 pb-4">
+          <i class="bi bi-megaphone-fill text-danger mb-3 d-block" style="font-size: 3rem;"></i>
+          <h4 class="fw-semibold">Últimas actualizaciones</h4>
+          <p class="text-muted mb-0">
+            Explora las noticias más recientes de la industria de los videojuegos, tecnología y más...
+          </p>
+        </div>
+        <div class="modal-footer border-top-0 justify-content-center pt-0 pb-4">
+          <button type="button" class="btn btn-outline-secondary px-4 fw-semibold" data-bs-dismiss="modal">Quizás luego</button>
+          <a href="{% url 'home:categoria' %}" class="btn btn-danger px-4 fw-semibold">Ver Novedades</a>
+        </div>
 
+      </div>
+    </div>
+  </div>
+  <!-- ================= FIN DEL MODAL ================= -->
 </main>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var miModal = new bootstrap.Modal(document.getElementById('modalIndex'));
+      miModal.show();
+    });
+  </script>
 {% endblock content %}

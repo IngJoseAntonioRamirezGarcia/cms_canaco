@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+.venv/
+canaco_env/
+env/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos generados por Django
+staticfiles/
+
+# Archivos temporales
+*.log
+
+# Archivos excluidos temporalmente del proyecto
+canaco/home/templates/forms.py
+despliegue.txt
+
+# Imágenes de prueba
+canaco/media/uploads/
