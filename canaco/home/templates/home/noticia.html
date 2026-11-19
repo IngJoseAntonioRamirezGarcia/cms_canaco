@@ -5,7 +5,15 @@
 {% block title %}{{ publicacion.titulo }} - Canaco{% endblock %}
 
 {% block content %}
-
+<head>
+    <title>{{ publicacion.titulo }} - Canaco</title>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-TTNLZQZM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+</head>
 <section class="page-title light-background">
     <div class="container">
         <h1>{{ publicacion.titulo }}</h1>
